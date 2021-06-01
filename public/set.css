@@ -1,0 +1,272 @@
+[v-cloak] {display: none!important;}
+html,
+body {
+    background: #FAF7F7;
+}
+
+.people_rank {
+    background: url(img/setbg.png) no-repeat;
+    background-size: cover;
+    border-radius: 0;
+}
+
+.footer {
+    box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.07);
+}
+
+.people_rank {
+    display: flex;
+    flex-direction: row;
+    height: 172px;
+}
+
+.set_name {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    height: 105px;
+}
+
+.set_name div {
+    flex: 1;
+    line-height: 130px;
+    font-size: 22px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.set_name{
+    flex: 2;
+}
+.set_name div:last-child{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 130px;
+}
+.set_sign {
+    flex: 1;
+    height: 92px;
+}
+
+.sing_btn {
+    float: right;
+    margin-top: 51px;
+    background: url(img/right.png) no-repeat right center, rgba(255, 255, 255, 1);
+    background-size: 16px;
+    border-radius: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(254, 101, 98, 1);
+    padding: 6px 20px 4px 14px;
+    border: 0;
+    margin-right: 30px;
+    height: 30px;
+}
+
+.sing_btn img {
+    width: 16px;
+    height: 16px;
+    float: right;
+}
+
+.set_img img {
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    display: block;
+    margin: 4px auto;
+}
+
+.set_img span {
+    /* float: left; */
+    display: inline-block;
+    border: 2px solid rgba(255, 255, 255, .35);
+    height: 71px;
+    width: 71px;
+    border-radius: 50%;
+    margin: 27px 20px;
+}
+
+.study_history {
+    height: 100px;
+    margin-top: -50px;
+    display: flex;
+}
+
+.s_history {
+    flex: 1;
+    margin: 0 8px 0 16px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 6px 0px rgba(189, 113, 116, 0.09);
+    border-radius: 6px;
+    display: flex;
+
+}
+
+.s_intaeral {
+    flex: 1;
+    display: flex;
+    margin: 0 16px 0 8px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 6px 0px rgba(189, 113, 116, 0.09);
+    border-radius: 6px;
+
+}
+
+.h_img {
+    margin: 18px 12px;
+}
+
+.h_img img {
+    height: 40px;
+    width: 40px;
+}
+
+.h_con {
+    display: flex;
+    flex-direction: column;
+    padding-top: 18px;
+}
+
+.number {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(36, 36, 36, 1);
+    margin-top: 5px;
+}
+
+.number b {
+    font-size: 24px;
+    margin-right: 2px;
+}
+
+.s_stydy {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(36, 36, 36, 1);
+}
+
+.peo_set {
+    height: 98px;
+    margin-top: 10px;
+}
+
+.peo_set li {
+    height: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    padding-left: 16px;
+    margin-bottom: 1px;
+    background: url(/img/setright.png) no-repeat right 20px center, #fff;
+    line-height: 48px;
+    background-size: 7px;
+}
+
+.login_out {
+    margin-top: 10px;
+    height: 49px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #D30000;
+    background: #fff;
+    text-align: center;
+    line-height: 49px;
+}
+
+.h_history {
+    height: 79px;
+}
+
+.s_con {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.s_con p {
+    flex: 1;
+    line-height: 74px;
+}
+
+.s_con b {
+    color: #FF5C60;
+    margin-right: 3px;
+}
+
+.s_con .number {
+    text-align: right;
+    padding-right: 30px;
+}
+
+.van-tabs--line .van-tabs__wrap {
+    height: 56px;
+}
+.van-tab--active{
+    color: #FF4257;
+}
+.van-tab__text {
+    font-size: 16px;
+    color:rgba(102,102,102,1);
+}
+.van-tab--active .van-tab__text{
+    color: #FF4257;
+}
+.van-tab--active .van-ellipsis {
+    color: #FF4257;
+}
+
+.van-tabs__line {
+    background: #FF4257;
+    bottom: 25px;
+    width: 35px !important;
+}
+
+.s_list {
+    margin-top: 10px;
+}
+
+.synth_list {
+    background: #fff;
+    margin-bottom: 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.synth_list div {
+    flex: 1;
+   
+}
+.synth_list li{
+    padding: 15px 0;
+    box-sizing: border-box;
+}
+.s3 {
+    padding:16px 16px 2px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.s4 {
+    padding:2px 16px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(150, 150, 150, 1);
+    text-align: left;
+    padding-left: 16px;
+}
+.inter .s4{
+    text-align: right;
+    padding-top: 12px;
+}
+.bot {
+    height: 60px;
+}
