@@ -23,7 +23,7 @@
         <div class="s_con">
           <p class="s_stydy">学习记录</p>
           <p class="number">
-            <b>31</b>
+            <b>{{id}}</b>
             次
           </p>
         </div>
@@ -86,12 +86,13 @@ export default {
   data() {
     return {
       list: null,
+      id: null,
     }
   },
   mounted() {
     axios
       .get('https://api.skyil.cn/qndxx')
-      .then((response) => (this.list = response.data,console.log( response.data)))
+      .then((response) => (this.list = response.data,this.id=response.data[0].id,console.log( response.data)))
       .catch(function (error) {
         // 请求失败处理
         console.log(error)
